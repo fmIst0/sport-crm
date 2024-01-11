@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: add-description-column-to-sport_schools-table
+      author: fmIst0
+      changes:
+        - addColumn:
+            tableName: sport_schools
+            columns:
+              - column:
+                  name: description
+                  type: text
